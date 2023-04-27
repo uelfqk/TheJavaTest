@@ -16,7 +16,7 @@ import org.junit.jupiter.api.*;
 //  5. @Disabled
 //      1). 테스트를 실행하고 싶지 않을때 사용
 //      2). Deprecated 된 코드이지만 코드정리가 되지 않아 테스트를 남겨두어야할때 등
-class StudyTest {
+class Study1Test {
 
     @Test
     void create() {
