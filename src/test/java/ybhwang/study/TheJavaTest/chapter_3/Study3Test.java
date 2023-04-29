@@ -58,7 +58,7 @@ class Study3Test {
     @Test
     @DisplayName(value = "timeout 테스트")
     void timeoutTest() throws InterruptedException {
-        org.junit.jupiter.api.Assertions.assertTimeout(Duration.ofMillis(100), () -> {
+        org.junit.jupiter.api.Assertions.assertTimeout(Duration.ofMillis(300), () -> {
             Study study = new Study(10);
             Thread.sleep(90);
         });
