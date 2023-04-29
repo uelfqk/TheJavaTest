@@ -20,6 +20,6 @@ public class TestClass {
     void 실패_테스트() {
         Study study = new Study(10);
 
-        Assertions.assertThat(study).isNull();
+        Assertions.assertThat(study).isNotNull();
     }
 }
