@@ -3,6 +3,7 @@
 
 <code>
 public void main() {
+  println("%s", "daas");
 
 }
 </code>
